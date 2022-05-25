@@ -1,8 +1,14 @@
-<div style="text-align:center">
-  <h1 >
-    TaDa! Welcome to {{title}} !!
-  </h1>
-  ... Starter Files ...
-  
- <product-list></product-list>
+<nav class="navbar navbar-expand navbar-light bg-light">
+  <a class="navbar-brand">{{title}}</a>
+    <ul class="nav nav-pills">
+      <li><a class="nav-link" rourterLink="/welcome">Home</a></li>
+      <li><a class="nav-link" routerLink="/products">Product List</a></li>
+    
+    </ul>
+    
+</nav>
+
+<div class="container">
+  <router-outlet></router-outlet>
+
 </div>

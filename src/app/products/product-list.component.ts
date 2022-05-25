@@ -4,7 +4,7 @@ import { IProduct } from '../shared/product.model';
 import { ProductService } from '../shared/product.service';
 
 @Component({
-    selector:'product-list',
+    
     templateUrl:'./product-list.component.html',
     styleUrls:['./product-list.component.css'],
     providers: [ProductService]
